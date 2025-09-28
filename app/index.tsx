@@ -1,4 +1,6 @@
+import ScreenTwo from "@/component/ScreenTwo";
 import { Button, StyleSheet, Text, TouchableOpacity, View } from "react-native";
+
 
 export default function Index() {
 
@@ -29,6 +31,10 @@ export default function Index() {
       <TouchableOpacity activeOpacity={0.6} style={styles.button} onPress={onPress}>
           <Text>Press Here</Text>
       </TouchableOpacity>
+
+      <ScreenTwo />
+
+      
     </View>
   );
 }
