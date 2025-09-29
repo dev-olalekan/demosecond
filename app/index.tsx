@@ -1,4 +1,4 @@
-import ScreenTwo from "@/component/ScreenTwo";
+import ScreenThree from "@/component/ScreenThree";
 import { View } from "react-native";
 
 
@@ -13,7 +13,8 @@ export default function Index() {
         backgroundColor: "hsl(200, 100%, 50%)",
       }}
     >
-      <ScreenTwo />
+     {/*  <ScreenTwo /> */}
+      <ScreenThree />
     </View>
   );
 }
