@@ -1,4 +1,4 @@
-import ScreenFour from "@/component/ScreenFour";
+import ScreenFive from "@/component/ScreenFive";
 import { View } from "react-native";
 
 
@@ -15,7 +15,8 @@ export default function Index() {
     >
      {/*  <ScreenTwo /> */}
       {/* <ScreenThree /> */}
-      <ScreenFour />
+      {/* <ScreenFour /> */}
+      <ScreenFive />
 
     </View>
   );
